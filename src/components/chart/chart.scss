@@ -1,0 +1,19 @@
+.chart-container {
+  flex: 4;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+
+  .title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff00ff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .chart-grid {
+    stroke: rgba(255, 255, 255, 0.2);
+  }
+}
