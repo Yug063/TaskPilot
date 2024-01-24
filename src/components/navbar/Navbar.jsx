@@ -16,7 +16,6 @@ import {
 import { db } from "../../firebase";
 import { useEffect, useState } from "react";
 
-
 const Navbar = () => {
   const { dispatch } = useContext(DarkModeContext);
   const [userData, setUserData] = useState(null);
@@ -44,7 +43,7 @@ const Navbar = () => {
               className="w-5 h-5"
               src="https://i.ibb.co/C51YjGL/Whats-App-Image-2024-01-21-at-16-55-28.jpg"
             />
-            <p className="ml-2 font-bold">Task Manager</p>
+            <p className="ml-2 font-bold">TaskPilot</p>
           </NavLink>
         </div>
         <div className="items">
@@ -63,14 +62,13 @@ const Navbar = () => {
             <div className="counter">1</div>
           </div>
           <div className="item flex justify-items-end">
-          {userData && userData.length > 0 && (
-            
-            <img
-              src={userData[0].img}
-              alt=""
-              className="avatar w-10 h-10 rounded-full"
-            />
-        )}
+            {userData && userData.length > 0 && (
+              <img
+                src={userData[0].img}
+                alt=""
+                className="avatar w-10 h-10 rounded-full"
+              />
+            )}
           </div>
         </div>
       </div>
