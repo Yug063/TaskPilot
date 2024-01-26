@@ -22,42 +22,9 @@ TaskPilot is an advanced task management system specifically designed for collab
 
 ## Technologies Used
 
-- HTML
-- CSS
-- JavaScript
+- ReactJs
+- SCSS
+- Tailwind
 - [Firebase](https://firebase.google.com/)
 
-## Installation
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/your-username/AddToCart.git
-    ```
-
-2. Open the `index.html` file in a web browser.
-
-3. Explore the application and try adding items to the shopping cart.
-
-## Firebase Setup
-
-1. Create a Firebase project on the [Firebase Console](https://console.firebase.google.com/).
-
-2. Copy and paste your Firebase configuration into the `firebase.js` file:
-
-    ```javascript
-    // Your Firebase configuration
-    var firebaseConfig = {
-      apiKey: "YOUR_API_KEY",
-      authDomain: "YOUR_AUTH_DOMAIN",
-      projectId: "YOUR_PROJECT_ID",
-      storageBucket: "YOUR_STORAGE_BUCKET",
-      messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-      appId: "YOUR_APP_ID"
-    };
-    ```
-
-3. Enable the necessary Firebase services for your project (e.g., Firestore).
-
-Special thanks to Firebase for providing a powerful backend solution for our mobile application.
 
