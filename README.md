@@ -1,9 +1,9 @@
 #  TaskPilot
 TaskPilot is an advanced task management system specifically designed for collaborative work within groups. It uses stacks ReactJs+Firebase+SCSS+Tailwind.
-## Features
 
-- **Add to Cart Functionality:** Quickly add or remove items to your shopping cart.
-- **Firebase Integration:** Utilize Firebase to store and manage shopping cart data.
+## Features
+- **Real-time Sync Database:** Firebase offers a real-time NoSQL database for instant data synchronization across users.
+- **Authentication & Hosting:** Firebase simplifies user authentication and provides hosting for deploying and scaling web apps securely.
 
 ## Screenshots of mobile app
 <!-- ScreenShot 1 -->
